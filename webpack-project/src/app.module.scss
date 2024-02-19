@@ -1,0 +1,13 @@
+#webpack-root {
+  max-width: 100%;
+  padding: 2rem;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+
+  .img {
+    height: 100px;
+  }
+}

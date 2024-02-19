@@ -1,0 +1,20 @@
+{
+  "name": "yarn-workspace-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "monorepo yarn wrokspace",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "webpack-project",
+      "vite-project",
+      "qiankun-project",
+      "shared-component"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
